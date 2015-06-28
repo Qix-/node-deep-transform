@@ -3,6 +3,7 @@
   "description": "Deeply transform your objects",
   "version": "0.1.0",
   "author": "Qix (http://github.com/qix-)",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "http://github.com/qix-/node-deep-transform.git"
