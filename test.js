@@ -34,6 +34,11 @@ it('should not reject arrays', function() {
   }).should.not.throw();
 });
 
+it('should ignore null objects', function() {
+  var trans = deepTransform([0, 2, 4]);
+  trans();
+});
+
 it('should perform a simple replace', function() {
   var trans = deepTransform({foo: function() { return 'bar'; }});
   var obj = {foo: 'nope'};
